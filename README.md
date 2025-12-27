@@ -9,6 +9,13 @@ Este projeto consiste em um pipeline completo de Ciência de Dados ("End-to-End"
 ## 🎯 Objetivo do Projeto
 O objetivo principal foi analisar o histórico de vendas de um E-commerce (Dataset Olist) para responder à pergunta: **"Quais variáveis realmente determinam o custo do frete no Brasil?"** e, a partir disso, criar uma IA capaz de prever custos para novos envios.
 
+## 💾 Sobre o Dataset
+Os dados utilizados neste projeto pertencem ao **Brazilian E-Commerce Public Dataset by Olist**, um dos maiores conjuntos de dados públicos de e-commerce do mundo, disponível no [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+
+Trata-se de dados reais e anonimizados de mais de **100.000 pedidos** realizados em diversos marketplaces no Brasil entre 2016 e 2018. O dataset é relacional e composto por 9 tabelas interligadas, permitindo uma visão 360º do negócio, desde a compra e pagamento até a entrega e avaliação do cliente.
+
+Para este projeto, foquei especificamente nas tabelas de **Pedidos (Orders)**, **Produtos (Products)** e **Geolocalização (Geolocation)**, realizando o cruzamento (*join*) dessas informações para extrair as variáveis de logística necessárias.
+
 ## 🛠️ Tecnologias e Ferramentas
 * **SQL (PostgreSQL / pgAdmin 4):** Extração, filtragem e unificação de tabelas relacionais (JOINs e Views).
 * **Python (Pandas & NumPy):** Limpeza de dados, engenharia de atributos e cálculos matemáticos.
